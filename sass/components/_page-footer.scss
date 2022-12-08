@@ -1,0 +1,38 @@
+// -----   стилизуем footer----------
+.page-footer {
+    color: $color-white;
+    background-color: $color-background-footer;
+}
+.page-footer__container {
+    display: flex;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.page-footer__logo {
+    display: inline-block;
+    color: inherit;
+
+    margin-bottom: 20px;
+}
+
+.box-address {
+    width: 231px;
+}
+//     
+.box-social {
+    margin-top: 12px;
+    margin-left: 70px;
+}
+.box-subscription {
+    margin-top: 23px;
+    margin-left: 93px;
+}
+.page-footer__headlines {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}

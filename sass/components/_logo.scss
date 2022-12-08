@@ -1,0 +1,15 @@
+// стилизация logo
+.logo {
+  color: $color-black;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo__span {
+  color: $color-accent;
+}
+.page-header__logo {
+  margin-right: 93px;
+}
+// end logo
