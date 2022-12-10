@@ -1,38 +1,45 @@
 // стилизация секции Особенности
+
 .differ {
-    padding-bottom: 0;
+  //  padding-bottom: 0;
 }
 
 .differences {
-    display: flex;
+  // display: flex;
 }
 
 .differences__property {
-    width: calc((100% - 90px) / 4);
-    &:not(:last-child) {
-        margin-right: 30px;
-    }
+  //width: calc((100% - 90px) / 4);
+  // width: 100%;
+  // &:not(:last-child) {
+  // margin-right: 30px;
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 .differences__icon {
-    padding-top: 25px;
-    padding-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 
-    background-color: $color-background-button-portfolio ;
-    text-align: center;
-    margin-bottom: 30px;
+  background-color: $color-background-button-portfolio;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .differences__tytle {
-    font-size: 14px;
-    line-height: 1.14;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .differences__text {
-    font-size: 14px;
-    line-height: 1.71;
-    // or 171% 
-
-    color: $color-text ;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  // or 171%
+  letter-spacing: 0.03em;
+  color: $color-text;
 }
