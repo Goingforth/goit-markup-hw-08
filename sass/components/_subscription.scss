@@ -17,6 +17,11 @@
   padding: 15px 16px;
   //margin-right: 12px;
   margin-bottom: 20px;
+  @media screen and (width: $tablet) {
+    width: 450px;
+    // margin-top: 23px;
+    // margin-left: 93px;
+  }
 
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
