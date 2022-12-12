@@ -5,6 +5,14 @@
 }
 
 .differences {
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    &__property {
+      flex-basis: calc((100% - 1 * 30px) / 2);
+    }
+  }
   // display: flex;
 }
 

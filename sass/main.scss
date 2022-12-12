@@ -1,4 +1,5 @@
 @import "utils/variables";
+@import "components/page-body";
 @import "components/container";
 @import "utils/common_styles";
 @import "components/page-header";
@@ -12,3 +13,5 @@
 @import "components/page-footer";
 @import "components/address";
 @import "components/subscription";
+@import "components/backdrop";
+@import "components/modal";
