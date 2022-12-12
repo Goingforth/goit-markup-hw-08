@@ -17,8 +17,13 @@
   padding: 15px 16px;
   //margin-right: 12px;
   margin-bottom: 20px;
-  @media screen and (width: $tablet) {
+  @media screen and (min-width: $tablet) {
     width: 450px;
+    // margin-top: 23px;
+    // margin-left: 93px;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 358px;
     // margin-top: 23px;
     // margin-left: 93px;
   }
