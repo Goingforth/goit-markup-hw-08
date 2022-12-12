@@ -207,8 +207,10 @@ img {
   }
 }
 
-.differences__property:not(:last-child) {
-  margin-bottom: 30px;
+@media screen and (max-width: 767px) {
+  .differences__property:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 
 .differences__icon {
@@ -220,11 +222,15 @@ img {
 }
 
 .differences__tytle {
-  text-align: center;
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+  .differences__tytle {
+    text-align: center;
+  }
 }
 
 .differences__text {
@@ -273,6 +279,16 @@ img {
   background-color: #f5f4fa;
 }
 
+@media screen and (width: 768px) {
+  .team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
+}
 .team .social-networks__link:hover .social-networks__icon--grey, .team .social-networks__link:focus .social-networks__icon--grey {
   fill: #ffffff;
 }
@@ -283,8 +299,16 @@ img {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team__members:not(:last-child) {
-  margin-bottom: 30px;
+@media screen and (max-width: 767px) {
+  .team__members:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (width: 768px) {
+  .team__members {
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
+  }
 }
 
 .team__description {

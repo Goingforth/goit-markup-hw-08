@@ -21,8 +21,10 @@
   // width: 100%;
   // &:not(:last-child) {
   // margin-right: 30px;
-  &:not(:last-child) {
-    margin-bottom: 30px;
+  @media screen and (max-width: calc($tablet - 1px)) {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
   }
 }
 .differences__icon {
@@ -35,9 +37,11 @@
 }
 
 .differences__tytle {
-  text-align: center;
+  @media screen and (max-width: calc($tablet - 1px)) {
+    text-align: center;
+  }
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 1.14;
   letter-spacing: 0.03em;
 
   margin-bottom: 10px;

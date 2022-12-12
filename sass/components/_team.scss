@@ -4,7 +4,11 @@
 
 .team {
   //display: flex;
-
+  @media screen and (width: $tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
   & .social-networks__link:hover .social-networks__icon--grey,
   & .social-networks__link:focus .social-networks__icon--grey {
     fill: $color-white;
@@ -18,8 +22,13 @@
   //&:not(:last-child) {
   //  margin-right: 30px;
   // }
-  &:not(:last-child) {
-    margin-bottom: 30px;
+  @media screen and (max-width: calc($tablet - 1px)) {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+  @media screen and (width: $tablet) {
+    flex-basis: calc((100% - 1 * 30px) / 2);
   }
 }
 .team__description {
