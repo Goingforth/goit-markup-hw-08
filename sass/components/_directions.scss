@@ -2,6 +2,9 @@
   @media screen and (max-width: calc($desktop - 1px)) {
     display: none;
   }
+  & .container {
+    padding-top: 0;
+  }
 }
 .directions {
   display: flex;

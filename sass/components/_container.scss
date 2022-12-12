@@ -7,6 +7,7 @@
     width: $mobile;
     padding-top: 60px;
     padding-bottom: 60px;
+
     &__tytle {
       font-weight: 700;
       font-size: 28px;
@@ -24,5 +25,12 @@
     width: $desktop;
     padding-top: 94px;
     padding-bottom: 94px;
+
+    &__tytle {
+      font-size: 36px;
+      line-height: 1.18;
+
+      margin-bottom: 50px;
+    }
   }
 }

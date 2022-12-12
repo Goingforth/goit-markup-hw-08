@@ -35,6 +35,11 @@
     padding-top: 94px;
     padding-bottom: 94px;
   }
+  .container__tytle {
+    font-size: 36px;
+    line-height: 1.18;
+    margin-bottom: 50px;
+  }
 }
 
 .page-body {
@@ -93,6 +98,8 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 @media screen and (min-width: 480px) {
   .page-header .container {
@@ -130,7 +137,7 @@ img {
 @media screen and (min-width: 1200px) {
   .hero .container {
     height: 600px;
-    padding: 200px 452px;
+    padding: 200px 252px;
   }
 }
 
@@ -147,6 +154,7 @@ img {
           justify-content: space-between;
   width: 100%;
   height: 100%;
+  outline: 1px solid red;
 }
 
 .hero__title {
@@ -157,6 +165,12 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 
 .hero__button {
@@ -205,6 +219,12 @@ img {
         flex-basis: calc((100% - 30px) / 2);
   }
 }
+@media screen and (min-width: 1200px) {
+  .differences__property {
+    -ms-flex-preferred-size: calc((100% - 90px) / 4);
+        flex-basis: calc((100% - 90px) / 4);
+  }
+}
 
 @media screen and (max-width: 767px) {
   .differences__property:not(:last-child) {
@@ -244,6 +264,9 @@ img {
   .direction {
     display: none;
   }
+}
+.direction .container {
+  padding-top: 0;
 }
 
 .directions {
@@ -307,6 +330,12 @@ img {
   .team__members {
     -ms-flex-preferred-size: calc((100% - 30px) / 2);
         flex-basis: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team__members {
+    -ms-flex-preferred-size: calc((100% - 90px) / 4);
+        flex-basis: calc((100% - 90px) / 4);
   }
 }
 
@@ -406,6 +435,12 @@ img {
   .clients__item {
     -ms-flex-preferred-size: calc((100% - 60px) / 3);
         flex-basis: calc((100% - 60px) / 3);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients__item {
+    -ms-flex-preferred-size: calc((100% - 150px) / 6);
+        flex-basis: calc((100% - 150px) / 6);
   }
 }
 .clients__item:hover, .clients__item:focus {
